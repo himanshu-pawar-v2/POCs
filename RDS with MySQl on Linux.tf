@@ -4,6 +4,7 @@ provider "aws" {
 }
 
 # Create a new MySQL RDS instance
+#
 resource "aws_db_instance" "example" {
   engine           = "mysql"
   instance_class   = "db.t2.micro"
